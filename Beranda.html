@@ -1,0 +1,201 @@
+<html>
+  <head>
+    <title>Sistem Operasi</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+        font-family: "Roboto", sans-serif;
+        background-color: #f0f0f0;
+        background-image: url("Gambar/Background Tentang Saya.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: white;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      .navbar img {
+        height: 50px;
+      }
+      .navbar ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+      }
+      .navbar ul li {
+        margin: 0 15px;
+      }
+      .navbar ul li a {
+        text-decoration: none;
+        color: black;
+        font-weight: 700;
+      }
+      .hero {
+        position: relative;
+        text-align: center;
+        color: white;
+        z-index: 1;
+      }
+      h1 {
+        font-weight: bold;
+        text-align: center;
+        color: white;
+        z-index: 1;
+        height: 50px;
+      }
+      .content {
+        display: flex;
+        align-items: flex-start;
+        padding: 20px;
+        margin: 20px;
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        position: relative;
+        z-index: 2;
+      }
+      .content:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+      }
+      .content img {
+        width: 300px;
+        height: 300px;
+        margin-right: 20px;
+        border-radius: 8px;
+      }
+      .content p {
+        font-size: 28px;
+        line-height: 1.6;
+        color: #333;
+        text-align: justify;
+      }
+      .content:nth-child(even) {
+        flex-direction: row-reverse;
+      }
+      .content:nth-child(even) img {
+        margin-right: 0;
+        margin-left: 20px;
+      }
+      .footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #f3f4f5;
+        color: #333;
+        font-size: 16px;
+        border-top: 1px solid #ddd;
+      }
+      .footer .contact-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+      .footer .contact-info p {
+        margin: 0 15px;
+      }
+      .footer .icon {
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <img alt="Logo" height="50" src="Gambar/Logo Unindra.png" width="50" />
+      <ul>
+        <li>
+          <a href="Beranda.html"> Beranda </a>
+        </li>
+        <li>
+          <a href="Halaman_Tugas.html"> Tugas </a>
+        </li>
+        <li>
+          <a href="Tentang_Saya.html"> Tentang Saya </a>
+        </li>
+      </ul>
+    </div>
+    <h1>SISTEM OPERASI</h1>
+    <div class="content">
+      <img
+        alt="Pengertian Sistem Operasi"
+        height="200"
+        src="Gambar/Pengertian Sistem Operasi.jpg"
+        width="300"
+      />
+      <div>
+        <p>
+          Sistem operasi adalah perangkat lunak yang mengelola perangkat keras
+          komputer dan menyediakan layanan umum untuk program komputer. Sistem
+          operasi adalah komponen penting dari perangkat lunak sistem dalam
+          sistem komputer. Sistem operasi bertindak sebagai perantara antara
+          pengguna komputer dan perangkat keras komputer.
+        </p>
+      </div>
+    </div>
+    <div class="content">
+      <img
+        alt="Fungsi Utama Sistem Operasi"
+        height="200"
+        src="Gambar/Fungsi.jpg"
+        width="300"
+      />
+      <div>
+        <p>
+          Fungsi utama dari sistem operasi meliputi manajemen proses, manajemen
+          memori, manajemen file, manajemen perangkat, dan manajemen keamanan.
+          Sistem operasi juga menyediakan antarmuka pengguna, baik itu antarmuka
+          baris perintah (CLI) atau antarmuka pengguna grafis (GUI).
+        </p>
+      </div>
+    </div>
+    <div class="content">
+      <img
+        alt="Contoh Sistem Operasi"
+        height="200"
+        src="Gambar/Contoh sistem Operasi.jpg"
+        width="300"
+      />
+      <div>
+        <p>
+          Contoh sistem operasi yang populer termasuk Microsoft Windows, macOS,
+          Linux, dan Android. Setiap sistem operasi memiliki kelebihan dan
+          kekurangan masing-masing, serta digunakan dalam berbagai jenis
+          perangkat, mulai dari komputer pribadi hingga perangkat seluler.
+        </p>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="contact-info">
+        <p>
+          <i class="fas fa-envelope icon"></i>
+          <a href="mailto:adamfuad121200@gmail.com">
+            adamfuad121200@gmail.com
+          </a>
+        </p>
+        <p>
+          <i class="fas fa-phone icon"></i>
+          <a href="tel:+6288225946181"> +62 88225946181 </a>
+        </p>
+      </div>
+      <p>
+        <i class="fas fa-copyright icon"></i>
+        Copyright &copy; 2024 Adam Fuad
+      </p>
+    </div>
+  </body>
+</html>
